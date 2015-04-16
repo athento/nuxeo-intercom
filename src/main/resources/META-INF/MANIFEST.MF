@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.athento-nuxeo.intercom
+Bundle-Name: intercom
+Bundle-Version: 1.0.qualifier
+Bundle-ClassPath: .
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ManifestVersion: 2
+Bundle-Vendor: Athento
+
