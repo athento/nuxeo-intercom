@@ -25,7 +25,7 @@ In order to use this plugin, you must deploy it along with [nuxeo-js-addon-enabl
 ...
 <!-- Include your own js files here from other plug-ins -->
 <script type="text/javascript"
-  src="#{baseURL}js/?scripts=**intercom.js**%7Cother-plugin.js">
+  src="#{baseURL}js/?scripts=intercom.js%7Cother-plugin.js">
 </script>
 ...
 ```
