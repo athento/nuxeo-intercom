@@ -15,7 +15,7 @@ jQuery('.nuxeoDrivePackages a').click(function(){
 
 ## Motivation
 
-With Intercom.io, a customer relationship management software (CRM), we can provide a better user experience. It helps us analyze user interaction with our product and provide the best customer service.
+With [Intercom.io](https://www.intercom.io/), a customer relationship management software (CRM), we can provide a better user experience. It helps us analyze user interaction with our product and provide the best customer service.
 
 ## Installation
 
