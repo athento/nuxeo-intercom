@@ -29,3 +29,13 @@ In order to use this plugin, you must deploy it along with [nuxeo-js-addon-enabl
 </script>
 ...
 ```
+
+Then, you just have to modify the Intercom.io snippet with your own configuration:
+``` javascript
+//------Intercom Snippet------
+window.intercomSettings = {
+    name: jQuery(".widgetLabel.boldLabel").html(),
+    email: jQuery(".widgetLabel.boldLabel").html(),
+    app_id: "sfpqql0z"
+  };
+```
