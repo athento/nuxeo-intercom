@@ -2,7 +2,7 @@
 
 ## Synopsis
 
-This Nuxeo plugin integrates Intercom.io with Nuxeo, sending events to the Intercom.io API on certain user interactions.
+This Nuxeo plugin integrates [Intercom.io](https://www.intercom.io/) with Nuxeo, sending events to the Intercom.io API on certain user interactions.
 
 ## Code Example
 
@@ -30,7 +30,7 @@ In order to use this plugin, you must deploy it along with [nuxeo-js-addon-enabl
 ...
 ```
 
-Then, you just have to modify the Intercom.io snippet with your own configuration:
+Finally, you should just moddify your [intercom.js](src/main/resources/web/nuxeo.war/scripts/intercom.js) snippet with your own configuration provided by Intercom:
 ``` javascript
 //------Intercom Snippet------
 window.intercomSettings = {
