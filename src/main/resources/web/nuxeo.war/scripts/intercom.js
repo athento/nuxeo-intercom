@@ -47,8 +47,9 @@ jQuery('#nxl_grid_summary_layout\\:nxw_summary_document_route_form\\:nxw_start_r
 });
 
 // Drag 'n' Drop
-jQuery('body').on('click', '#dndFormSubmitButton', function(){
-	Intercom('trackEvent', 'drag and drop');
+jQuery('body').on("drop",function(event) { 
+	alert("Dropped!"); 
 });
+
 
 }); //**window.ready**
