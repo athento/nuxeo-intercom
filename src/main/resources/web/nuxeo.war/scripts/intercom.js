@@ -13,7 +13,18 @@ var transition = localStorage.getItem('athento-intercom-transition');
 if(transition !== null){
 	Intercom('trackEvent', transition);
 	localStorage.removeItem('athento-intercom-transition');
+	console.log('send '+transition);
 }
+
+//jQuery(".ambiance.ambiance-error.errorFeedback")
+/*jQuery( document ).bind('DOMSubtreeModified', function(){
+	var trans = localStorage.getItem('athento-intercom-transition'); 
+	if(trans !== null){
+		if(jQuery(".ambiance.ambiance-error.errorFeedback").length){
+			localStorage.removeItem('athento-intercom-transition');
+		}
+	}
+});*/
 
 // Create Document
 jQuery('#document_create\\:nxw_documentCreateButtons_CREATE_DOCUMENT').click(function(){
@@ -35,18 +46,17 @@ jQuery('#document_create\\:nxw_documentCreateButtons_CREATE_WORKSPACE').click(fu
 var fn_user = function(){
 	localStorage.setItem('athento-intercom-transition', 'new user');
 }
+
 // Event binding on dynamically created elements
 jQuery('body').on('click', '#createUserView\\:createUser\\:button_save_and_invite', fn_user);
 jQuery('body').on('click', '#createUserView\\:createUser\\:button_invite', fn_user);
 jQuery('body').on('click', '#createUserView\\:createUser\\:button_save_and_create', fn_user);
 jQuery('body').on('click', '#createUserView\\:createUser\\:button_save', fn_user);
 
-
 // NX Drive installation
 jQuery('.nuxeoDrivePackages a').click(function(){
 	Intercom('trackEvent', 'nuxeo drive install');
 });
-
 
 // Workflow start
 jQuery('#nxl_grid_summary_layout\\:nxw_summary_document_route_form\\:nxw_start_route_widget_start_route').click(function(){
