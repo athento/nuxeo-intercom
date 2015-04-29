@@ -39,3 +39,8 @@ window.intercomSettings = {
     app_id: "sfpqql0z"
   };
 ```
+
+## Internet Explorer 11 Notice:
+
+For those users using IE11 and experiencing troubles with events, you must have your browser up to date using Windows Update. It may not work otherwise.
+
