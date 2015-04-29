@@ -40,7 +40,7 @@ window.intercomSettings = {
   };
 ```
 
-## Internet Explorer 11 Notice:
+## Internet Explorer 11 Notice
 
-For those users using IE11 and experiencing troubles with events, you must have your browser up to date using Windows Update. It may not work otherwise.
+For those users using IE11 and experiencing troubles with events, your browser must be up to date using Windows Update. It may not work otherwise.
 
